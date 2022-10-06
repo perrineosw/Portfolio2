@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Portfolio">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="OSWALD Perrine">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title> Portfolio | OSWALD PERRINE </title>
+
+	<link href="./css/global.css" rel="stylesheet" media="all" type="text/css">
+	<link href="./css/box.css" rel="stylesheet" media="all" type="text/css">
+	<link href="./css/etudesParcours.css" rel="stylesheet" media="all" type="text/css">
+	<link href="./css/competence.css" rel="stylesheet" media="all" type="text/css">
+	<link href="./css/etudes.css" rel="stylesheet" media="all" type="text/css">
+	<link href="./css/parcours.css" rel="stylesheet" media="all" type="text/css">
+	<link href="./css/projets.css" rel="stylesheet" media="all" type="text/css">
+	<link href="./css/diapo.css" rel="stylesheet" media="all" type="text/css">
+	<link href="./css/fondAnime.css" rel="stylesheet" media="all" type="text/css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href='https://logicbox.net/jquery/simplyscroll/jquery.simplyscroll.css' rel="stylesheet" media="all" type="text/css">
+	<link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css' rel="stylesheet" media="all" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet" media="all" type="text/css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet">
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+	</style>
+</head>
+<body>
+<!----------------------------------------------- MENU ----------------------------------------------->
+	<div class="container-fluid">
+		<nav class="row navigation">
+			<div class="col-md-2"><a href="#accueil">ACCUEIL</a></div>
+			<div class="col-md-2"><a href="#aPropos">A PROPOS DE MOI</a></div>
+			<div class="col-md-2"><a href="#etudes">ETUDES</a></div>
+			<div class="col-md-2"><a href="#parcours">PARCOURS</a></div>
+			<div class="col-md-2"><a href="#competences">COMPETENCES</a></div>
+			<div class="col-md-2"><a href="#projets">PROJETS</a></div>
+		</nav>
+	</div>
+
+
+	<div class="container-fluid">
+		<!----------------------------------------------- ACCUEIL ----------------------------------------------->
+		<div id="accueil" class="row">
+			<img src="./images/fond.jpeg" class="w-100" alt=""/>
+			<div class="row mt-5 textAccueil">
+				<div class="col-lg-3 col-md-1 col-sm-2"></div>
+				<div class="col-lg-6 col-md-10 col-sm-8 text-center accueil_contenu">
+					<div class="top-bar"></div>
+					<div class="bot-bar"></div>
+					<div class="left-bar"></div>
+					<div class="right-bar"></div>
+					<div class="row m-lg-5 m-md-2 m-sm-2 nomPrenom">OSWALD Perrine</div>
+					<div class="row m-lg-5 m-md-2 m-sm-2 infoNomPrenom">Etudiante en licence informatique</div>
+					<div class="row m-lg-5 m-md-2 m-sm-2 textAccueilSlogan">
+						Désireuse de relever de nouveaux défis, rigoureuse, réactive, ponctuelle, autonome et curieuse, je
+						souhaite rejoindre vos effectifs afin de participer au développement de vos projets.
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-1 col-sm-2"></div>
+			</div>
+		</div>
+		<!----------------------------------------------- A PROPOS ----------------------------------------------->
+		<div id="aPropos" class="row my-5"></div>
+		<div class="row my-5"></div>
+		<div class="row mt-5 mx-3">
+			<div class="col">
+				<div class="row titre">A propos de moi</div>
+				<div class="row">
+					<div class="col mt-5 textAPropos col-lg-8 col-md-12 col-sm-12">
+						<p>Après une licence informatique NEC (Numérique pour les Environnements Connectés) à ANGLET (64),
+							je suis actuellement en quatrième année d'étude de développement d'application web à YNOV
+							et en alternance au sein de la société Avenir Data à Dax (40).</p>
+						<p>Tout au long de ma licence ainsi que mon stage, j'ai acquise des connaissances théoriques et personnelles
+							en matière de développement (Python, web et SQL approfondi et poussé), d’adaptabilité, ainsi que
+							l'analyse de data. J'ai pu participer à des projets concrets, m’intégrer à un travail
+							d’équipe, comprendre les enjeux de fournir un travail rigoureux en respectant des délais de livraisons, etc…</p>
+						<p>Mes domaines de développements et d’analyses passent aussi bien du secteur de l’environnement,
+							à la logistique industrielle ainsi que le commerce B2B.</p>
+					</div>
+					<div class="text-center col-lg-4 col-md-12 col-sm-12">
+						<div class="boxImage">
+							<img class="moiImage box_shadow" src="./images/moi3.jpg" alt=""/>
+							<div class="box-content">
+								<div class="overlay-img">
+									<img class="moiImage" src="./images/moi3.jpg" alt=""/>
+								</div>
+								<div class="inner-content brown-nuance">
+									<h3 class="title">OSWALD Perrine</h3>
+									<span class="post">Web designer</span>
+									<div class="row mt-2">
+										<div class="col social">
+											<a href="https://www.linkedin.com/in/perrine-oswald-7a89431a2/"><i class="iconify" data-icon="ion:logo-linkedin"></i></a>
+										</div>
+										<div class="col social">
+											<a href="https://github.com/perrineosw"><i class="iconify" data-icon="ion:logo-github"></i></a>
+										</div>
+										<div class="col social">
+											<a href="mailto:oswald.perrinedu40@gmail.com"><i class="iconify" data-icon="ion:at-circle"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mt-5 row">
+					<div class="col">
+						<label class="row textSousTitre">Mes centres d'intérêts</label>
+						<div class="row d-flex justify-content-around" id="chaqueCentreInteret"></div>
+					</div>
+				</div>
+				<div class="mt-5 row">
+					<div class="col">
+						<label class="row textSousTitre">Mes atouts</label>
+						<div class="row d-flex justify-content-around" id="chaqueAtout"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!----------------------------------------------- ETUDES ----------------------------------------------->
+		<div id="etudes" class="row my-5"></div>
+		<div class="row my-5"></div>
+		<div class="row mt-5 mx-3">
+			<div class="col">
+				<div class="row titre">Mes études</div>
+				<div class="school row" id="chaqueEtudes"></div>
+			</div>
+		</div>
+
+		<!----------------------------------------------- PARCOURS ----------------------------------------------->
+		<div id="parcours" class="row my-5"></div>
+		<div class="row my-5"></div>
+		<div class="row mt-5 mx-3">
+			<div class="col">
+				<div class="row titre">Mon parcours</div>
+				<div class="row mt-5" id="chaqueParcours"></div>
+			</div>
+		</div>
+
+
+		<!----------------------------------------------- COMPETENCES ----------------------------------------------->
+		<div id="competences" class="row my-5"></div>
+		<div class="row my-5"></div>
+		<div class="row mt-5 mx-3">
+			<div class="col">
+				<div class="row titre">Mes compétences</div>
+				<div class="mt-5 row textSousTitre">Langues</div>
+				<div class="row d-flex justify-content-around">
+					<div class="mt-4 col languesAnglais">
+						<div class="row">
+							<div class="col-lg-4 col-md-12 col-sm-12">
+								<img src="./images/anglais.png" class="drapeau" alt=""/>
+							</div>
+							<div class="mt-3 col-lg-7 col-md-12 col-sm-12">
+								<div class="row">
+									<progress max="100" value="70" class="anglais"></progress>
+								</div>
+								<div class="row-12 text-center">B1 (niveau scolaire)</div>
+							</div>
+						</div>
+					</div>
+					<div class="mt-4 col languesEspagnol">
+						<div class="row">
+							<div class="col-lg-4 col-md-12 col-sm-12">
+								<img src="./images/espagnol.png" class="drapeau" alt=""/>
+							</div>
+							<div class="mt-3 col-lg-7 col-md-12 col-sm-12">
+								<div class="row">
+									<progress max="100" value="70" class="espagnol"></progress>
+								</div>
+								<div class="row-12 text-center">B1 (niveau scolaire)</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mt-5 row textSousTitre">Mes atouts</div>
+				<div class="row d-flex justify-content-around" id="chaqueLangage"></div>
+				<div class="row textSousTitre">Frameworks & Librairies</div>
+				<div class="row d-flex justify-content-around" id="chaqueFramework"></div>
+				<div class="row textSousTitre">Logiciels</div>
+				<div class="row d-flex justify-content-around" id="chaqueLogiciel"></div>
+			</div>
+		</div>
+
+		<!----------------------------------------------- PROJETS ----------------------------------------------->
+		<div id="projets" class="row my-5"></div>
+		<div class="row my-5"></div>
+		<div class="row mt-5 mx-3">
+			<div class="col">
+				<div class="row titre">Mes projets</div>
+				<!-- https://bbbootstrap.com/snippets/bootstrap-5-simple-card-hover-effects-50607616 -->
+				<div class="mt-5 row">
+					<div class="container d-flex align-items-center justify-content-center position-relative flex-wrap">
+						<div class="card d-flex position-relative flex-column">
+							<div class='imgContainer'>
+								<img src='https://images.pexels.com/photos/1456268/pexels-photo-1456268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'>
+							</div>
+							<div class="content">
+								<h2>Card One</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh.  Morbi in leo in eros commodo volutpat ac sed dolor.</p>
+							</div>
+						</div>
+						<div class="card d-flex position-relative flex-column">
+							<div class='imgContainer'>
+								<img src='https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'>
+							</div>
+							<div class="content">
+								<h2>Card Two</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh.  Morbi in leo in eros commodo volutpat ac sed dolor.</p>
+							</div>
+						</div>
+						<div class="card d-flex position-relative flex-column">
+							<div class='imgContainer'>
+								<img src='https://images.pexels.com/photos/847483/pexels-photo-847483.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'>
+							</div>
+							<div class="content">
+								<h2>Card Three</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh.  Morbi in leo in eros commodo volutpat ac sed dolor.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!----------------------------------------------- Script JS ----------------------------------------------->
+
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.ui.js'></script>
+<script src='https://logicbox.net/jquery/simplyscroll/jquery.simplyscroll.min.js'></script>
+<script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="./javaS.js"></script>
+</html>

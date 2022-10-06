@@ -1,0 +1,267 @@
+@import url(https://fonts.googleapis.com/css?family=Expletus+Sans);
+
+@media only screen and (max-width: 500px){
+    .navigation{
+        font-size: 12px;
+        height: 5%;
+        column-gap: 2px;
+    }
+    /*----------------------------------------------- ACCUEIL -----------------------------------------------*/
+    .textAccueil{
+        top: 67%;
+        left: 2%;
+        width: 93%;
+    }
+    .infoNomPrenom {
+        padding: 7% 0 0 0;
+    }
+    .textAccueilSlogan{
+        padding: 15% 0 0 0;
+    }
+    /*----------------------------------------------- LES FONTS -----------------------------------------------*/
+    .background #hero-canvas {
+        top: 5% !important;
+        height: 110% !important;
+    }
+    .moiImage {
+        top: 85px;
+        left: 205px;
+        width: 170px;
+        height: 233px;
+        z-index: 3;
+    }
+    .moiImage:hover {
+        transform: scale(1.6);
+        margin-left: -155px;
+        border-right: #e7e7e7 solid 50px;
+        border-left: #e7e7e7 solid 50px;
+        z-index: 3;
+    }
+    .fondAPropos {
+        top: 110%;
+        height: 130%;
+    }
+    .etudes{
+        top: 240%;
+        height: 100%;
+    }
+    .parcours{
+        top: 340%;
+        height: 150%;
+    }
+    .competences{
+        top: 490%;
+        height: 120%;
+    }
+    .projets{
+        top: 610%;
+        height: 130%;
+    }
+    /*----------------------------------------------- LES TITRES -----------------------------------------------*/
+    .titre {
+        top: 40px;
+        font-size: 20px;
+    }
+    .separationTrait{
+        padding: 20px 0 0 0;
+    }
+    /*----------------------------------------------- A PROPOS -----------------------------------------------*/
+    .textAPropos {
+        top: 70px;
+        left: 2%;
+        width: 96%;
+        height: auto;
+        line-height: 1.3;
+        font-size: 12px;
+    }
+    .textAPropos .aProposP1-2{
+        width: 185px;
+    }
+    .textAPropos .aProposP3{
+        width: 100%;
+    }
+    .interets {
+        top: 410px;
+        left: 2%;
+        width: 96%;
+        font-size: 20px;
+    }
+    .atouts {
+        top: 600px;
+        left: 2%;
+        width: 96%;
+        font-size: 20px;
+    }
+    .imgCentreInteret {
+        width: 60px;
+        height: 45px;
+    }
+    .imgCentreAtout {
+        width: 40px;
+        height: 40px;
+    }
+    .polaroide .photoPolaroide .info {
+        font-size: 10px;
+    }
+    .polaroide .photoPolaroide .infoAtouts {
+        font-size: 8px;
+    }
+    /*----------------------------------------------- ETUDES -----------------------------------------------*/
+    .wrap {
+        width: 100%;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .divEtudes-1{
+        top: 80px;
+        left: 2%;
+        width: 46%;
+    }
+    .divEtudes-2{
+        top: 80px;
+        right: 2%;
+        width: 46%;
+    }
+    /*----------------------------------------------- PARCOURS -----------------------------------------------*/
+    .card .imgBx p, .card .details p {
+        font-size: 12px;
+    }
+    .card .details {
+        padding: 10px 15px;
+    }
+    .divParcours-1{
+        position: absolute;
+        top: 80px;
+        left: 2%;
+        width: 46%;
+        height: 250px;
+    }
+    .divParcours-2{
+        top: 80px;
+        left: 52%;
+        width: 46%;
+        height: 250px;
+    }
+    .divParcours-3{
+        top: 350px;
+        left: 2%;
+        width: 46%;
+        height: 250px;
+    }
+    .divParcours-4{
+        top: 350px;
+        left: 52%;
+        width: 46%;
+        height: 250px;
+    }
+    .divParcours-5{
+        top: 620px;
+        left: 2%;
+        width: 46%;
+        height: 250px;
+    }
+    /*----------------------------------------------- COMPETENCES -----------------------------------------------*/
+    .titreLangues {
+        top: 80px;
+        left: 0;
+        width: 100%;
+        font-size: 20px;
+    }
+    .languesAnglais {
+        top: 120px;
+        left: 0;
+        width: 100%;
+    }
+    .languesEspagnol {
+        top: 180px;
+        left: 0;
+        width: 100%;
+    }
+    .drapeau {
+        height: 40px;
+        width: 80px;
+    }
+    .titreLangages {
+        top: 260px;
+        left: 0;
+        width: 100%;
+        font-size: 20px;
+    }
+    .langagesContenu {
+        top: 290px;
+        left: 2%;
+        width: 96%;
+    }
+    .titreLogiciels {
+        top: 470px;
+        left: 0;
+        width: 100%;
+        font-size: 20px;
+    }
+    .logicielsContenu {
+        top: 500px;
+        left: 2%;
+        width: 96%;
+    }
+    .petitLogo {
+        height: 40px;
+        width: 40px;
+    }
+    /*----------------------------------------------- PROJETS -----------------------------------------------*/
+    .intro-block {
+    }
+    .border-1,
+    .border-2,
+    .border-3 {
+        width: 90px;
+        height: 55px;
+    }
+    .hex-wrap {
+        width: 103px;
+        height: 130px;
+    }
+    .hex-wrap .imgH, .hex-wrap .imgV {
+        position: absolute;
+        top: 8px;
+        left: -4px;
+    }
+    .hex-wrap .imgH svg, .hex-wrap .imgH img {
+        height: 55px;
+        width: 74px;
+    }
+    .hex-wrap .imgV svg, .hex-wrap .imgV img {
+        height: 74px;
+        width: 45px;
+    }
+    .hover-notify {
+        top: 310px;
+        left: 130px;
+        width: 420px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .code-display {
+        left: -570px;
+        top: 270px;
+        width: 390px;
+        height: 260px;
+    }
+    p.code-title {
+        top: -50px;
+        font-size: 20px;
+    }
+    .code-description > div {
+        font-size: 20px;
+    }
+    .desc-active::after {
+        opacity: .3;
+    }
+    /*----------------------------------------------- FOOTER -----------------------------------------------*/
+    .footer-basic {
+        top: 740%;
+    }
+    .footer-basic .social .copyright {
+        font-size:15px;
+    }
+}
