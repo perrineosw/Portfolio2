@@ -84,7 +84,7 @@ let liensPARCOURS = ['https://www.avenirdata.com/', 'https://www.avenirdata.com/
 
 let contenuParcours ='';
 for (let leparcours=0; leparcours<intitulesPARCOURS.length; leparcours+=1) {
-    contenuParcours += '<div class="col-xs-6 col-sm-4 col-md-4">' +
+    contenuParcours += '<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">' +
                             '<div class="box">' +
                                 '<div class="our-services box_shadow '+degradesPARCOURS[leparcours]+'">' +
                                     '<div class="icon"> <img src="'+imagesPARCOURS[leparcours]+'" class="imageParcours box_shadow" alt=""> </div>' +

@@ -10,11 +10,9 @@
 
 .our-services  {
     margin-top: 75px;
-    padding: 0 60px;
-    min-height: 198px;
     text-align: center;
-    border-radius: 10px;
-    background-color: #fff;
+    border-radius: 25px;
+    background-color: white;
     transition: all .4s ease-in-out;
 
 }
@@ -22,7 +20,6 @@
 .our-services .icon {
     margin-bottom: -21px;
     transform: translateY(-50%);
-    text-align: center;
 }
 
 .our-services:hover {

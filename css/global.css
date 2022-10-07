@@ -194,9 +194,9 @@ body {
 }
 /*----------------------------------------------- IMAGES & LOGOS -----------------------------------------------*/
 .drapeau {
-	padding: 0 2% 2% 0;
 	height: 70px;
 	width: 140px;
+	border-radius: 10px;
 }
 .petitLogo {
 	height: 80px;

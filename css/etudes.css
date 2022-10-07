@@ -1,15 +1,13 @@
 .school .c {
     box-shadow: 0 4px 0 var(--brown-dark-color);
     border-radius: 5px;
-    background-clip: padding-box;
     position: relative;
     overflow: hidden;
-    border: none;
-    padding-bottom: 150px;
+    padding-bottom: 180px;
 }
 
 .school .c .wrap {
-    position: relative
+    position: relative;
 }
 
 .school .c .wrap img {
