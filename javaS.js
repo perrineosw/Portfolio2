@@ -1,6 +1,6 @@
 /* CENTRES D'INTERETS */
 
-let imagesCENTRESINTERETS = ['./images/dvlp.jpeg', './images/ordinateur.jpeg', './images/cinema.png', './images/photographie.jpeg', './images/musique.png', './images/benevole.png', './images/voyager.jpeg', './images/sport.jpeg'];
+let imagesCENTRESINTERETS = ['./images/centres-interets/dvlp.jpeg', './images/centres-interets/ordinateur.jpeg', './images/centres-interets/cinema.png', './images/centres-interets/photographie.jpeg', './images/centres-interets/musique.png', './images/centres-interets/benevole.png', './images/centres-interets/voyager.jpeg', './images/centres-interets/sport.jpeg'];
 let nomsCENTRESINTERETS = ['Programmation', 'Technologie', 'Cinéma', 'Photographie', 'Musique', 'Bénévolat', 'Voyager', 'Sport'];
 
 let contenuCENTRESINTERETS ='';
@@ -18,7 +18,7 @@ for (let leCentre=0; leCentre<nomsCENTRESINTERETS.length; leCentre+=1) {
 
 /* ATOUTS */
 
-let imagesATOUTS = ['./images/ponctualite.png', './images/creativite.png', './images/reactivite.png', './images/rigueur.png', './images/curiosite.png', './images/organisation.png', './images/enthousiasme.png'];
+let imagesATOUTS = ['./images/atouts/ponctualite.png', './images/atouts/creativite.png', './images/atouts/reactivite.png', './images/atouts/rigueur.png', './images/atouts/curiosite.png', './images/atouts/organisation.png', './images/atouts/enthousiasme.png'];
 let nomsATOUTS = ['Ponctuelle', 'Créative', 'Réactive', 'Rigoureuse', 'Curieuse', 'Organisée', 'Positive'];
 
 let contenuATOUTS ='';
@@ -36,7 +36,7 @@ for (let lAtout=0; lAtout<nomsATOUTS.length; lAtout+=1) {
 
 /* ETUDES */
 
-let imagesETUDES = ['./images/ynov.jpeg', './images/uppa.jpeg', './images/harountazieff.jpeg'];
+let imagesETUDES = ['./images/etudes/ynov.jpeg', './images/etudes/uppa.jpeg', './images/etudes/harountazieff.jpeg'];
 let intitulesETUDES = ['Master', 'Licence informatique', 'Bac S'];
 let descriptionsETUDES = ['Expert développement web', 'Numérique pour les Environnements Connectés', 'Sciences de l\'Ingénieur'];
 let datesETUDES = ['2022 - 2024', '2019 - 2022', '2019'];
@@ -73,7 +73,7 @@ for (let lEtude=0; lEtude<intitulesETUDES.length; lEtude+=1) {
 /* PARCOURS */
 
 let degradesPARCOURS = ['blue-nuancePARCOURS', 'blue-nuancePARCOURS', 'red-nuancePARCOURS', 'orange-nuancePARCOURS', 'red-nuancePARCOURS', 'red-nuancePARCOURS', 'green-nuancePARCOURS'];
-let imagesPARCOURS = ['./images/avenirdata.jpeg', './images/avenirdata.jpeg', './images/intermarche.jpeg', './images/stPaulLesDax.jpeg', './images/feria.jpeg', './images/feria.jpeg', './images/harmonie.jpg'];
+let imagesPARCOURS = ['./images/parcours/avenirdata.jpeg', './images/parcours/avenirdata.jpeg', './images/parcours/intermarche.jpeg', './images/parcours/stPaulLesDax.jpeg', './images/parcours/feria.jpeg', './images/parcours/feria.jpeg', './images/parcours/harmonie.jpg'];
 let intitulesPARCOURS = ['Alternance informatique et data', 'Stage informatique et data', 'Hôtesse de caisse', 'Stage informatique', 'Vendeuse', 'Vendeuse', 'Bénévole dans une association musicale'];
 let datesPARCOURS = ['2022 - 2024', 'Avril - Août 2022', 'Juin / Juillet / Août 2021', '2020', 'Août 2019', 'Août 2017', 'Depuis 2015'];
 let descriptionsPARCOURS = ['Exploitation, compréhension, modélisation de la donnée B2B et développement web', 'Exploitation, compréhension, modélisation de la donnée B2B et développement web', 'Poste d’hôtesse de caisse, agent d\'entretien et mise en rayon', 'Gestion d’un parc d’appareils mobiles (tablettes) via le MDM Jamf Pro (Apple)', 'Vente de tickets pour les navettes bus / parkings relais pour les férias de DAX (journée & nuit)', 'Vente de tickets pour les navettes bus / parkings relais pour les férias de DAX (journée)', 'Aide à l\'organisation et aux animations lors des concerts et déplacements'];
@@ -105,7 +105,7 @@ for (let leparcours=0; leparcours<intitulesPARCOURS.length; leparcours+=1) {
 
 /* COMPETENCES - LANGAGES */
 
-let imagesLANGAGES = ['./images/html.png', './images/css.png', './images/php.png', './images/js.png', './images/sql.png', './images/python.png', './images/swift.jpeg', './images/java.png', './images/c.png', './images/vba.svg'];
+let imagesLANGAGES = ['./images/competences/langages/html.png', './images/competences/langages/css.png', './images/competences/langages/php.png', './images/competences/langages/js.png', './images/competences/langages/sql.png', './images/competences/langages/python.png', './images/competences/langages/swift.jpeg', './images/competences/langages/java.png', './images/competences/langages/c.png', './images/competences/langages/vba.svg'];
 let nomsLANGAGES = ['HTML', 'CSS', 'PHP', 'JS', 'SQL', 'Python', 'Swift', 'Java', 'C', 'VBA'];
 
 let contenuLANGAGES ='';
@@ -123,7 +123,7 @@ for (let leLangage=0; leLangage<nomsLANGAGES.length; leLangage+=1) {
 
 /* COMPETENCES - FRAMEWORKS */
 
-let imagesFRAMEWORKS = ['./images/bootstrap.png', './images/django.png'];
+let imagesFRAMEWORKS = ['./images/competences/frameworks/bootstrap.png', './images/competences/frameworks/django.png'];
 let nomsFRAMEWORKS = ['Bootstrap', 'Django'];
 
 let contenuFRAMEWORKS ='';
@@ -141,7 +141,7 @@ for (let leFramework=0; leFramework<nomsFRAMEWORKS.length; leFramework+=1) {
 
 /* COMPETENCES - LOGICIELS */
 
-let imagesLOGICIELS = ['./images/office.png', './images/emeditor.webp', './images/rstudio.png', './images/xcode.png', './images/android.png', './images/eclipse.png', './images/phpStorm.png', './images/visualStudio.png', './images/heidisql.png', './images/workbench.png', './images/phpmyadmin.jpeg', './images/mamp.png', './images/jamf.png', './images/balsamiq.png'];
+let imagesLOGICIELS = ['./images/competences/logiciels/office.png', './images/competences/logiciels/emeditor.webp', './images/competences/logiciels/rstudio.png', './images/competences/logiciels/xcode.png', './images/competences/logiciels/android.png', './images/competences/logiciels/eclipse.png', './images/competences/logiciels/phpStorm.png', './images/competences/logiciels/visualStudio.png', './images/competences/logiciels/heidisql.png', './images/competences/logiciels/workbench.png', './images/competences/logiciels/phpmyadmin.jpeg', './images/competences/logiciels/mamp.png', './images/competences/logiciels/jamf.png', './images/competences/logiciels/balsamiq.png'];
 let nomsLOGICIELS = ['Office', 'EmEditor', 'RStudio', 'XCode', 'Android<br>Studio', 'Eclipse', 'PhpStorm', 'VS Code', 'HeidiSQL', 'Workbench', 'Php<br>MyAdmin', 'Mamp', 'Jamf Pro', 'Balsamiq'];
 
 let contenuLOGICIELS ='';

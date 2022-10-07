@@ -37,7 +37,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/images/competences/logiciels" />
+      <recent name="$PROJECT_DIR$/images/competences/frameworks" />
+      <recent name="$PROJECT_DIR$/images/competences/langages" />
+      <recent name="$PROJECT_DIR$/images/competences/langues" />
+      <recent name="$PROJECT_DIR$/images/parcours" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665153097542</updated>
-      <workItem from="1665153099441" duration="1399000" />
+      <workItem from="1665153099441" duration="3009000" />
     </task>
     <servers />
   </component>
