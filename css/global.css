@@ -1,23 +1,19 @@
 :root {
-	--blue-dark-color: #189a82;
-	--blue-color: #5bd5be;
-	--blue-light-color: #52EBCF;
-	--brown-dark-color: #9E3D18;
-	--brown-light-color: #EB7C52;
-
-	--blue---color: #42eae4;
-	--blue-dark---color: #005451;
-	--green---color: #52EB78;
-	--green-dark---color: #005018;
-	--orange---color: #eb8d52;
-	--orange-dark---color: #502300;
-	--red---color: #e84361;
-	--red-dark---color: #50000e;
+	--couleur1: #8F0E5B;
+	--couleur2: #DB0082;
+	--couleur3: #DBBF01;
+	--couleur4: #16CDDB;
+	--couleur5: #07858F;
 }
 body {
-	font-family: 'Oswald', sans-serif;
+	background-color: #e9efec !important;
+}
+span, label, div, p, a, .h1, .h2n .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: Consolas, monaco, monospace;
 	color: black;
-	background-color: #e7e7e7;
+}
+div, p, a, nav {
+	font-size: 15px;
 }
 /*----------------------------------------------- NAVIGATION -----------------------------------------------*/
 .navigation {
@@ -27,20 +23,16 @@ body {
 	font-size: 15px;
 	text-align: center;
 	padding: 20px;
-	background-color: var(--blue-color);
+	background-color: var(--couleur5);
 	z-index: 5;
 }
 .navigation a {
-	color: black;
+	color: white;
 	border-radius: 25px;
 	padding: 15px;
 }
 .navigation a:hover {
-	text-decoration: none;
-	color: white;
-	border-radius: 25px;
-	padding: 15px;
-	background-image: linear-gradient(-45deg, var(--brown-light-color) 0%, var(--brown-dark-color) 100%);
+	color: var(--couleur3);
 }
 /*----------------------------------------------- OMBRE -----------------------------------------------*/
 .box_shadow {
@@ -51,6 +43,7 @@ body {
 	position: relative;
 	width: 350px;
 	height: auto;
+	border-radius: 25px;
 }
 .drapeau {
 	height: 70px;
@@ -60,42 +53,45 @@ body {
 .petitLogo {
 	height: 80px;
 	width: 80px;
+	background-color: inherit !important;
 }
 .imgCentreInteret {
 	width: 150px;
 	height: 105px;
+	background-color: inherit !important;
 }
 .imgCentreAtout {
 	width: 105px;
 	height: 105px;
+	background-color: inherit !important;
 }
 /*----------------------------------------------- LES TITRES -----------------------------------------------*/
 .titre {
-	color: var(--brown-light-color);
+	color: var(--couleur1);
 	font-size: 40px;
 }
 .orangered-text{
-	color: var(--brown-light-color);
+	color: var(--couleur1);
 }
 /*----------------------------------------------- NUANCES -----------------------------------------------*/
-.brown-nuance {
-	background-image: linear-gradient(-45deg, var(--brown-light-color) 0%, var(--brown-dark-color) 100%);
+.couleur1-2-nuance {
+	background-image: linear-gradient(-45deg, var(--couleur2) 0%, var(--couleur1) 100%);
 }
-.blue-nuance {
-	background-image: linear-gradient(-45deg, var(--blue-light-color) 0%, var(--blue-dark-color) 100%);
+.couleur4-5-nuance {
+	background-image: linear-gradient(-45deg, var(--couleur4) 0%, var(--couleur5) 100%);
 }
-.blue-nuancePARCOURS:hover {
-	background-image: linear-gradient(-45deg, var(--blue---color) 0%, var(--blue-dark---color) 100%);
+.degrade1:hover {
+	background-image: linear-gradient(-45deg, var(--white) 0%, var(--couleur1) 100%);
 }
-
-.green-nuancePARCOURS:hover {
-	background-image: linear-gradient(-45deg, var(--green---color) 0%, var(--green-dark---color) 100%);
+.degrade2:hover {
+	background-image: linear-gradient(-45deg, var(--white) 0%, var(--couleur2) 100%);
 }
-
-.red-nuancePARCOURS:hover {
-	background-image: linear-gradient(-45deg, var(--red---color) 0%, var(--red-dark---color) 100%);
+.degrade3:hover {
+	background-image: linear-gradient(-45deg, var(--white) 0%, var(--couleur3) 100%);
 }
-
-.orange-nuancePARCOURS:hover {
-	background-image: linear-gradient(-45deg, var(--orange---color) 0%, var(--orange-dark---color) 100%);
+.degrade4:hover {
+	background-image: linear-gradient(-45deg, var(--white) 0%, var(--couleur4) 100%);
+}
+.degrade5:hover {
+	background-image: linear-gradient(-45deg, var(--white) 0%, var(--couleur5) 100%);
 }

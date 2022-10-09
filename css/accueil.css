@@ -1,74 +1,21 @@
-.textAccueil {
-    position: absolute;
-    cursor:pointer;
-    transition:all .3s ease-in 1.2s;
-}
-.accueil_contenu {
-    background-color: white;
-    border: var(--blue-color) solid 1px;
-}
 .nomPrenom {
     line-height: 1.2;
     font-size: 50px;
-    color: var(--brown-light-color);
+    color: var(--couleur2);
+    text-align: center;
 }
 .infoNomPrenom {
     font-size: 20px;
-    color: var(--brown-light-color);
+    color: var(--couleur2);
+    text-align: center;
 }
 .textAccueilSlogan {
     font-size: 20px;
     line-height: 2;
+    text-align: center;
 }
-.bot-bar{
-    position:absolute;
-    bottom:0;
-    height:4%;
-    width:0;
-    left:0;
-    background: var(--brown-dark-color);
-    transition:all .4s ease .8s;
-}
-.top-bar{
-    height:4%;
-    width:0;
-    position:absolute;
-    top:0;
-    right:0;
-    background: var(--blue-dark-color);
-    transition: all .4s ease .2s;
-}
-.left-bar{
-    height:0;
-    width:2%;
-    background: var(--blue-dark-color);
-    position:absolute;
-    left:0;
-    top:0;
-    transition:all .2s ease;
-}
-.right-bar{
-    height:0;
-    width:2%;
-    background: var(--brown-dark-color);
-    position:absolute;
-    right:0;
-    bottom:0;
-    transition:all .2s ease .6s;
-}
-.textAccueil:hover .bot-bar{
-    width:100%;
-    transition: all .4s ease-in-out;
-}
-.textAccueil:hover .top-bar{
-    width:100%;
-    transition: all .4s ease-in-out .6s;
-}
-.textAccueil:hover .right-bar{
-    height:100%;
-    transition:all .2s ease-in-out .4s;
-}
-.textAccueil:hover .left-bar{
-    height:100%;
-    transition:all .2s ease-in-out 1s;
+.imageFond {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
 }

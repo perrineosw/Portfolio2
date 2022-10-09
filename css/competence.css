@@ -30,5 +30,5 @@ progress[value]::-webkit-progress-bar {
         -webkit-linear-gradient( top,
         #ffffff1a,
         #ffffff1a),
-        -webkit-linear-gradient( right, var(--blue-light-color), var(--blue-dark-color));
+        -webkit-linear-gradient( right, var(--couleur4), var(--couleur5));
 }

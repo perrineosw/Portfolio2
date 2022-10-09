@@ -1,14 +1,15 @@
 .textAPropos {
     text-align: justify;
     line-height: 2;
-    font-size: 18px;
-    color: black;
 }
 .textSousTitre {
     text-align: justify;
     line-height: 2;
     font-size: 25px;
-    color: var(--brown-light-color);
+    color: var(--couleur1);
+}
+.social {
+    color: white;
 }
 .social > a {
     font-size:24px;
@@ -21,10 +22,9 @@
     color:inherit;
 }
 .social > a:hover {
-    color: var(--blue-color);
+    color: var(--couleur1);
 }
 .social .copyright {
     text-align:center;
     font-size:20px;
-    color:black;
 }

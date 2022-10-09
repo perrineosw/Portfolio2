@@ -9,8 +9,8 @@ for (let leCentre=0; leCentre<nomsCENTRESINTERETS.length; leCentre+=1) {
                                     '<div class="card-side row front">' +
                                         '<img src="'+imagesCENTRESINTERETS[leCentre]+'" class="imgCentreInteret" alt="">' +
                                     '</div>' +
-                                    '<div class="card-side row back brown-nuance h-100">' +
-                                        '<div class="m-auto">'+nomsCENTRESINTERETS[leCentre]+'</div>' +
+                                    '<div class="card-side row back couleur1-2-nuance h-100">' +
+                                        '<div class="m-auto text-white">'+nomsCENTRESINTERETS[leCentre]+'</div>' +
                                     '</div>' +
                                 '</div>';
     document.getElementById('chaqueCentreInteret').innerHTML = contenuCENTRESINTERETS;
@@ -27,8 +27,8 @@ for (let lAtout=0; lAtout<nomsATOUTS.length; lAtout+=1) {
                         '<div class="card-side row front">' +
                             '<img src="'+imagesATOUTS[lAtout]+'" class="imgCentreAtout" alt="">' +
                         '</div>' +
-                        '<div class="card-side row back brown-nuance h-100">' +
-                            '<div class="m-auto">'+nomsATOUTS[lAtout]+'</div>' +
+                        '<div class="card-side row back couleur1-2-nuance h-100">' +
+                            '<div class="m-auto text-white">'+nomsATOUTS[lAtout]+'</div>' +
                         '</div>' +
                     '</div>' ;
     document.getElementById('chaqueAtout').innerHTML = contenuATOUTS;
@@ -48,17 +48,17 @@ let liensETUDES = ['https://www.ynov.com/formation/ynov-masteres/expert-developp
 let contenuEtudes ='';
 for (let lEtude=0; lEtude<intitulesETUDES.length; lEtude+=1) {
     contenuEtudes += '<div class="col-xs-6 col-sm-4 col-md-4">' +
-                        '<div class="c text-center mx-4">' +
+                        '<div class="c text-center mx-4 card box_shadow">' +
                             '<div class="wrap">' +
-                                '<div class="my-5 dateEtudes"><h3>'+datesETUDES[lEtude]+'</h3></div>' +
+                                '<div class="mt-2 mb-5 dateEtudes"><h3>'+datesETUDES[lEtude]+'</h3></div>' +
                                 '<img src="'+imagesETUDES[lEtude]+'" alt="" class="box_shadow"> ' +
                                 '<div class="info">' +
                                     '<div class="h3">'+intitulesETUDES[lEtude]+'</div>' +
                                     '<div class="h5">'+descriptionsETUDES[lEtude]+'</div>' +
                                 '</div>' +
                             '</div>' +
-                            '<div class="more brown-nuance">' +
-                                '<div class="mt-4">' +
+                            '<div class="more couleur1-2-nuance">' +
+                                '<div class="mt-4 text-white">' +
                                     ''+ecolesETUDES[lEtude]+'<br>'+codepostalsETUDES[lEtude]+' - '+villesETUDES[lEtude]+'' +
                                     '<a href="'+liensETUDES[lEtude]+'">' +
                                         '<p class="mt-4 orangered-text">Accéder au site</p>' +
@@ -72,7 +72,7 @@ for (let lEtude=0; lEtude<intitulesETUDES.length; lEtude+=1) {
 
 /* PARCOURS */
 
-let degradesPARCOURS = ['blue-nuancePARCOURS', 'blue-nuancePARCOURS', 'red-nuancePARCOURS', 'orange-nuancePARCOURS', 'red-nuancePARCOURS', 'red-nuancePARCOURS', 'green-nuancePARCOURS'];
+let degradesPARCOURS = ['degrade1', 'degrade2', 'degrade3', 'degrade4', 'degrade5', 'degrade1', 'degrade2'];
 let imagesPARCOURS = ['./images/parcours/avenirdata.jpeg', './images/parcours/avenirdata.jpeg', './images/parcours/intermarche.jpeg', './images/parcours/stPaulLesDax.jpeg', './images/parcours/feria.jpeg', './images/parcours/feria.jpeg', './images/parcours/harmonie.jpg'];
 let intitulesPARCOURS = ['Alternance informatique et data', 'Stage informatique et data', 'Hôtesse de caisse', 'Stage informatique', 'Vendeuse', 'Vendeuse', 'Bénévole dans une association musicale'];
 let datesPARCOURS = ['2022 - 2024', 'Avril - Août 2022', 'Juin / Juillet / Août 2021', '2020', 'Août 2019', 'Août 2017', 'Depuis 2015'];
@@ -114,8 +114,8 @@ for (let leLangage=0; leLangage<nomsLANGAGES.length; leLangage+=1) {
                             '<div class="card-side row front">' +
                                 '<img src="'+imagesLANGAGES[leLangage]+'" class="petitLogo" alt="">' +
                             '</div>' +
-                            '<div class="card-side row back brown-nuance h-100">' +
-                                '<div class="m-auto">'+nomsLANGAGES[leLangage]+'</div>' +
+                            '<div class="card-side row back couleur1-2-nuance h-100">' +
+                                '<div class="m-auto text-white">'+nomsLANGAGES[leLangage]+'</div>' +
                             '</div>' +
                         '</div>';
     document.getElementById('chaqueLangage').innerHTML = contenuLANGAGES;
@@ -132,8 +132,8 @@ for (let leFramework=0; leFramework<nomsFRAMEWORKS.length; leFramework+=1) {
         '<div class="card-side row front">' +
         '<img src="'+imagesFRAMEWORKS[leFramework]+'" class="petitLogo" alt="">' +
         '</div>' +
-        '<div class="card-side row back brown-nuance h-100">' +
-        '<div class="m-auto">'+nomsFRAMEWORKS[leFramework]+'</div>' +
+        '<div class="card-side row back couleur1-2-nuance h-100">' +
+        '<div class="m-auto text-white">'+nomsFRAMEWORKS[leFramework]+'</div>' +
         '</div>' +
         '</div>';
     document.getElementById('chaqueFramework').innerHTML = contenuFRAMEWORKS;
@@ -150,8 +150,8 @@ for (let leLogiciel=0; leLogiciel<nomsLOGICIELS.length; leLogiciel+=1) {
         '<div class="card-side row front">' +
         '<img src="'+imagesLOGICIELS[leLogiciel]+'" class="petitLogo" alt="">' +
         '</div>' +
-        '<div class="card-side row back brown-nuance h-100">' +
-        '<div class="m-auto">'+nomsLOGICIELS[leLogiciel]+'</div>' +
+        '<div class="card-side row back couleur1-2-nuance h-100">' +
+        '<div class="m-auto text-white">'+nomsLOGICIELS[leLogiciel]+'</div>' +
         '</div>' +
         '</div>';
     document.getElementById('chaqueLogiciel').innerHTML = contenuLOGICIELS;
