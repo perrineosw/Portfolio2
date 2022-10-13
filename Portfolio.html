@@ -9,7 +9,8 @@
 	<title> Portfolio | OSWALD PERRINE </title>
 
 	<link href="css/global.css" rel="stylesheet" media="all" type="text/css">
-	<link href="css/accueil.css" rel="stylesheet" media="all" type="text/css"><link href="css/box.css" rel="stylesheet" media="all" type="text/css">
+	<link href="css/accueil.css" rel="stylesheet" media="all" type="text/css">
+	<link href="css/box.css" rel="stylesheet" media="all" type="text/css">
 	<link href="css/apropos.css" rel="stylesheet" media="all" type="text/css">
 	<link href="css/etudes.css" rel="stylesheet" media="all" type="text/css">
 	<link href="css/parcours.css" rel="stylesheet" media="all" type="text/css">
@@ -27,6 +28,7 @@
 <!----------------------------------------------- MENU ----------------------------------------------->
 	<div class="container-fluid">
 		<nav class="row navigation">
+
 			<div class="col-md-2 col-"><a href="#accueil">ACCUEIL</a></div>
 			<div class="col-md-2 col-"><a href="#aPropos">A PROPOS DE MOI</a></div>
 			<div class="col-md-2"><a href="#etudes">ETUDES</a></div>
@@ -38,11 +40,14 @@
 
 
 	<div class="container-fluid">
+		<div class="row">
+			<img src="images/fond_accueil.jpeg" class="imageFond" alt="">
+		</div>
 		<!----------------------------------------------- ACCUEIL ----------------------------------------------->
-		<div id="accueil" class="row">
+		<div id="accueil" class="row my-5">
 			<div class="row my-5"></div>
 			<div class="row mx-3">
-				<div class="col">
+				<div class="col-lg-8 col-md-6 col-sm-12">
 					<div class="my-5 nomPrenom">OSWALD Perrine</div>
 					<div class="my-5 infoNomPrenom">Etudiante en licence informatique</div>
 					<div class="my-5 textAccueilSlogan">
@@ -50,7 +55,32 @@
 						souhaite rejoindre vos effectifs afin de participer au développement de vos projets.
 					</div>
 				</div>
-				<div class="col mx-3">
+				<div class="text-center col-lg-4 col-md-6 col-sm-12">
+					<div class="boxImage">
+						<img class="moiImage box_shadow" src="images/photo_moi.jpg" alt=""/>
+						<div class="box-content">
+							<div class="overlay-img">
+								<img class="moiImage" src="images/photo_moi.jpg" alt=""/>
+							</div>
+							<div class="inner-content couleur4-5-nuance">
+								<h3 class="title">OSWALD Perrine</h3>
+								<span class="post">Web designer</span>
+								<div class="row mt-2">
+									<div class="col social">
+										<a href="https://www.linkedin.com/in/perrine-oswald-7a89431a2/"><i class="iconify" data-icon="ion:logo-linkedin"></i></a>
+									</div>
+									<div class="col social">
+										<a href="https://github.com/perrineosw"><i class="iconify" data-icon="ion:logo-github"></i></a>
+									</div>
+									<div class="col social">
+										<a href="mailto:oswald.perrinedu40@gmail.com"><i class="iconify" data-icon="ion:at-circle"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--<div class="col mx-3">
 					<div id="carouselExampleIndicators" class="carousel slide imageFond box_shadow" data-ride="carousel">
 						<ol class="carousel-indicators">
 							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -87,7 +117,7 @@
 						</a>
 					</div>
 					<script>$('.carousel').carousel({/*interval: 10*/})</script>
-					<!--<div class="row">
+					<div class="row">
 						<div class="col">
 							<div class="my-5 nomPrenom">OSWALD Perrine</div>
 							<div class="my-5 infoNomPrenom">Etudiante en licence informatique</div>
@@ -99,8 +129,8 @@
 					<div class="my-5 textAccueilSlogan">
 						Désireuse de relever de nouveaux défis, rigoureuse, réactive, ponctuelle, autonome et curieuse, je
 						souhaite rejoindre vos effectifs afin de participer au développement de vos projets.
-					</div>-->
-				</div>
+					</div>
+				</div>-->
 			</div>
 		</div>
 
@@ -122,31 +152,7 @@
 						<p>Mes domaines de développements et d’analyses passent aussi bien du secteur de l’environnement,
 							à la logistique industrielle ainsi que le commerce B2B.</p>
 					</div>
-					<div class="text-center col-lg-4 col-md-6 col-sm-12">
-						<div class="boxImage">
-							<img class="moiImage box_shadow" src="images/photo_moi.jpg" alt=""/>
-							<div class="box-content">
-								<div class="overlay-img">
-									<img class="moiImage" src="images/photo_moi.jpg" alt=""/>
-								</div>
-								<div class="inner-content couleur4-5-nuance">
-									<h3 class="title">OSWALD Perrine</h3>
-									<span class="post">Web designer</span>
-									<div class="row mt-2">
-										<div class="col social">
-											<a href="https://www.linkedin.com/in/perrine-oswald-7a89431a2/"><i class="iconify" data-icon="ion:logo-linkedin"></i></a>
-										</div>
-										<div class="col social">
-											<a href="https://github.com/perrineosw"><i class="iconify" data-icon="ion:logo-github"></i></a>
-										</div>
-										<div class="col social">
-											<a href="mailto:oswald.perrinedu40@gmail.com"><i class="iconify" data-icon="ion:at-circle"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+
 				</div>
 				<div class="mt-5 row">
 					<div class="col">
@@ -164,12 +170,14 @@
 		</div>
 
 		<!----------------------------------------------- ETUDES ----------------------------------------------->
-		<div id="etudes" class="row my-5"></div>
-		<div class="row my-5"></div>
-		<div class="row mt-5 mx-3">
-			<div class="col">
-				<div class="row titre">Mes études</div>
-				<div class="school row mt-5" id="chaqueEtudes"></div>
+		<div id="etudes" class="row my-5">
+			<div class="row my-5">
+				<div class="row mt-5 mx-3 box_shadow">
+					<div class="col">
+						<div class="row titre mx-5">Mes études</div>
+						<div class="school row mt-5" id="chaqueEtudes"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -239,7 +247,7 @@
 					<div class="container d-flex align-items-center justify-content-center position-relative flex-wrap">
 						<div class="card d-flex position-relative flex-column">
 							<div class='imgContainer'>
-								<img src='https://images.pexels.com/photos/1456268/pexels-photo-1456268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'>
+								<img src='https://images.pexels.com/photos/1456268/pexels-photo-1456268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' alt="">
 							</div>
 							<div class="content">
 								<h2>Card One</h2>
@@ -248,7 +256,7 @@
 						</div>
 						<div class="card d-flex position-relative flex-column">
 							<div class='imgContainer'>
-								<img src='https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'>
+								<img src='https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' alt="">
 							</div>
 							<div class="content">
 								<h2>Card Two</h2>
@@ -257,7 +265,7 @@
 						</div>
 						<div class="card d-flex position-relative flex-column">
 							<div class='imgContainer'>
-								<img src='https://images.pexels.com/photos/847483/pexels-photo-847483.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'>
+								<img src='https://images.pexels.com/photos/847483/pexels-photo-847483.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' alt="">
 							</div>
 							<div class="content">
 								<h2>Card Three</h2>

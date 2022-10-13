@@ -48,13 +48,13 @@ let liensETUDES = ['https://www.ynov.com/formation/ynov-masteres/expert-developp
 let contenuEtudes ='';
 for (let lEtude=0; lEtude<intitulesETUDES.length; lEtude+=1) {
     contenuEtudes += '<div class="col-xs-6 col-sm-4 col-md-4">' +
-                        '<div class="c text-center mx-4 card box_shadow">' +
+                        '<div class="c text-center mx-4 my-4 card box_shadow">' +
                             '<div class="wrap">' +
                                 '<div class="mt-2 mb-5 dateEtudes"><h3>'+datesETUDES[lEtude]+'</h3></div>' +
                                 '<img src="'+imagesETUDES[lEtude]+'" alt="" class="box_shadow"> ' +
                                 '<div class="info">' +
-                                    '<div class="h3">'+intitulesETUDES[lEtude]+'</div>' +
-                                    '<div class="h5">'+descriptionsETUDES[lEtude]+'</div>' +
+                                    '<div class="h3 mx-2">'+intitulesETUDES[lEtude]+'</div>' +
+                                    '<div class="h5 mx-2">'+descriptionsETUDES[lEtude]+'</div>' +
                                 '</div>' +
                             '</div>' +
                             '<div class="more couleur1-2-nuance">' +
