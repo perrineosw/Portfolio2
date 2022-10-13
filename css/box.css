@@ -4,8 +4,8 @@
     transition: all 0.3s ease-in-out;
 }
 .boxImage:hover > img{
-    opacity: 0.5;
-    filter: blur(5px);
+    opacity: 0.8;
+    filter: grayscale(1) blur(5px);
     transform: scale(1.05);
 }
 .boxImage .box-content{

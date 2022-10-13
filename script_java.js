@@ -1,18 +1,25 @@
 /* CENTRES D'INTERETS */
 
-let imagesCENTRESINTERETS = ['./images/centres-interets/dvlp.jpeg', './images/centres-interets/ordinateur.jpeg', './images/centres-interets/cinema.png', './images/centres-interets/photographie.jpeg', './images/centres-interets/musique.png', './images/centres-interets/benevole.png', './images/centres-interets/voyager.jpeg', './images/centres-interets/sport.jpeg'];
-let nomsCENTRESINTERETS = ['Programmation', 'Technologie', 'Cinéma', 'Photographie', 'Musique', 'Bénévolat', 'Voyager', 'Sport'];
+let etatCENTRESINTERETS = ['active', '', '', '', '', '', '']
+let imagesCENTRESINTERETS = ['./images/centres-interets/programmation.png', './images/centres-interets/cinema.jpeg', './images/centres-interets/photography.jpeg', './images/centres-interets/music.jpeg', './images/centres-interets/benevolat.jpeg', './images/centres-interets/voyager.jpeg', './images/centres-interets/sport.jpeg'];
+let nomsCENTRESINTERETS = ['Programmation', 'Cinéma', 'Photographie', 'Musique', 'Bénévolat', 'Voyager', 'Sport'];
 
 let contenuCENTRESINTERETS ='';
 for (let leCentre=0; leCentre<nomsCENTRESINTERETS.length; leCentre+=1) {
-    contenuCENTRESINTERETS += '<div class="card imgCentreInteret">' +
+    contenuCENTRESINTERETS += '<div class="carousel-item '+etatCENTRESINTERETS[leCentre]+'">' +
+                                    '<img class="d-block imgCentreInteret" src="'+imagesCENTRESINTERETS[leCentre]+'" alt="">' +
+                                    '<div class="carousel-caption d-none d-md-block">' +
+                                        '<div class="cardBlanc font-italic py-3 mb-0">'+nomsCENTRESINTERETS[leCentre]+'</div>' +
+                                    '</div>' +
+                                '</div>';
+        /*'<div class="card imgCentreInteret">' +
                                     '<div class="card-side row front">' +
                                         '<img src="'+imagesCENTRESINTERETS[leCentre]+'" class="imgCentreInteret" alt="">' +
                                     '</div>' +
                                     '<div class="card-side row back couleur1-2-nuance h-100">' +
                                         '<div class="m-auto text-white">'+nomsCENTRESINTERETS[leCentre]+'</div>' +
                                     '</div>' +
-                                '</div>';
+                                '</div>';*/
     document.getElementById('chaqueCentreInteret').innerHTML = contenuCENTRESINTERETS;
 }
 
@@ -48,7 +55,7 @@ let liensETUDES = ['https://www.ynov.com/formation/ynov-masteres/expert-developp
 let contenuEtudes ='';
 for (let lEtude=0; lEtude<intitulesETUDES.length; lEtude+=1) {
     contenuEtudes += '<div class="col-xs-6 col-sm-4 col-md-4">' +
-                        '<div class="c text-center mx-4 my-4 card box_shadow">' +
+                        '<div class="c text-center mx-4 mb-4 card box_shadow">' +
                             '<div class="wrap">' +
                                 '<div class="mt-2 mb-5 dateEtudes"><h3>'+datesETUDES[lEtude]+'</h3></div>' +
                                 '<img src="'+imagesETUDES[lEtude]+'" alt="" class="box_shadow"> ' +
@@ -85,13 +92,13 @@ let liensPARCOURS = ['https://www.avenirdata.com/', 'https://www.avenirdata.com/
 let contenuParcours ='';
 for (let leparcours=0; leparcours<intitulesPARCOURS.length; leparcours+=1) {
     contenuParcours += '<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">' +
-                            '<div class="box">' +
+                            '<div class="box mb-3">' +
                                 '<div class="our-services box_shadow '+degradesPARCOURS[leparcours]+'">' +
                                     '<div class="icon"> <img src="'+imagesPARCOURS[leparcours]+'" class="imageParcours box_shadow" alt=""> </div>' +
-                                    '<div class="h2">'+intitulesPARCOURS[leparcours]+'</div>' +
-                                    '<div class="h4">'+datesPARCOURS[leparcours]+'</div>' +
-                                    '<div class="mt-4">'+descriptionsPARCOURS[leparcours]+'</div>' +
-                                    '<div class="mt-4 pb-4">' +
+                                    '<div class="h2 mx-2">'+intitulesPARCOURS[leparcours]+'</div>' +
+                                    '<div class="h4 mx-2">'+datesPARCOURS[leparcours]+'</div>' +
+                                    '<div class="mt-4 mx-2">'+descriptionsPARCOURS[leparcours]+'</div>' +
+                                    '<div class="mt-4 pb-4 mx-2">' +
                                         ''+societesPARCOURS[leparcours]+'<br>'+codepostalsPARCOURS[leparcours]+' - '+villesPARCOURS[leparcours]+'' +
                                         '<a href="'+liensPARCOURS[leparcours]+'">' +
                                             '<p class="mt-4 orangered-text">Accéder au site</p>' +

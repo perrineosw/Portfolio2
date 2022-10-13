@@ -1,18 +1,16 @@
 .nomPrenom {
-    line-height: 1.2;
     font-size: 50px;
-    color: var(--couleur2);
+    color: var(--couleur1) !important;
     text-align: center;
 }
 .infoNomPrenom {
-    font-size: 20px;
-    color: var(--couleur2);
+    color: var(--couleur1) !important;
     text-align: center;
 }
 .textAccueilSlogan {
-    font-size: 20px;
     line-height: 2;
     text-align: justify;
+    color: var(--couleur2) !important;
 }
 .imageFond {
     position: fixed;

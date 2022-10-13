@@ -1,12 +1,16 @@
 .textAPropos {
     text-align: justify;
     line-height: 2;
+    background-color: white;
+    border-radius: 25px;
 }
 .textSousTitre {
-    text-align: justify;
     line-height: 2;
     font-size: 25px;
-    color: var(--couleur1);
+    background-color: var(--couleur1-pale);
+    text-align: center;
+    color: white;
+    border-radius: 25px;
 }
 .social {
     color: white;
