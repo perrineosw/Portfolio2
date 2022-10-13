@@ -9,7 +9,7 @@
 }
 .textAccueilSlogan {
     line-height: 2;
-    text-align: justify;
+    text-align: center;
     color: var(--couleur2) !important;
 }
 .imageFond {
@@ -17,4 +17,114 @@
     width: 100%;
     height: auto;
     border-radius: 25px;
+}
+
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.container .box
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 30px;
+    transition: 0.5s;
+}
+
+.container .box::before, .container .box::after
+{
+    content:' ';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    background: #fff;
+    border-radius: 8px;
+    transform: skewX(15deg);
+    transition: 0.5s;
+    filter: blur(30px);
+}
+
+.container .box span
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.container .box span::before
+{
+    content:'';
+    position: absolute;
+    top: -50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    background: var(--couleur1-pale);
+    backdrop-filter: blur(10px);
+    opacity: 1;
+    transition: 0.1s;
+    animation: animate 2s ease-in-out infinite;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08)
+}
+
+.container .box span::after
+{
+    content:'';
+    position: absolute;
+    bottom: -50px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    background: var(--couleur1-pale);
+    backdrop-filter: blur(10px);
+    opacity: 1;
+    transition: 0.5s;
+    animation: animate 2s ease-in-out infinite;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    animation-delay: -1s;
+}
+
+@keyframes animate
+{
+    0%, 100%
+    {
+        transform: translateY(10px);
+    }
+
+    50%
+    {
+        transform: translate(-10px);
+    }
+}
+
+.container .box .content
+{
+    position: relative;
+    left: 0;
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1;
+    color: #fff;
 }
