@@ -7,9 +7,9 @@ let nomsCENTRESINTERETS = ['Programmation', 'Cinéma', 'Photographie', 'Musique'
 let contenuCENTRESINTERETS ='';
 for (let leCentre=0; leCentre<nomsCENTRESINTERETS.length; leCentre+=1) {
     contenuCENTRESINTERETS += '<div class="carousel-item '+etatCENTRESINTERETS[leCentre]+'">' +
-                                    '<img class="d-block imgCentreInteret" src="'+imagesCENTRESINTERETS[leCentre]+'" alt="">' +
-                                    '<div class="carousel-caption d-none d-md-block">' +
-                                        '<div class="cardBlanc font-italic py-3 mb-0">'+nomsCENTRESINTERETS[leCentre]+'</div>' +
+                                    '<img class="imgCentreInteret" src="'+imagesCENTRESINTERETS[leCentre]+'" alt="">' +
+                                    '<div class="carousel-caption">' +
+                                        '<div class="cardBlancAPropos font-italic py-1 m-0">'+nomsCENTRESINTERETS[leCentre]+'</div>' +
                                     '</div>' +
                                 '</div>';
         /*'<div class="card imgCentreInteret">' +
