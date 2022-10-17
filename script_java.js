@@ -59,12 +59,12 @@ for (let lEtude=0; lEtude<intitulesETUDES.length; lEtude+=1) {
                             '<div class="wrap">' +
                                 '<div class="mt-2 mb-5 dateEtudes"><h3>'+datesETUDES[lEtude]+'</h3></div>' +
                                 '<img src="'+imagesETUDES[lEtude]+'" alt="" class="box_shadow"> ' +
-                                '<div class="info">' +
+                                '<div class="info" style="border-radius: 25px">' +
                                     '<div class="h3 mx-2">'+intitulesETUDES[lEtude]+'</div>' +
                                     '<div class="h5 mx-2">'+descriptionsETUDES[lEtude]+'</div>' +
                                 '</div>' +
                             '</div>' +
-                            '<div class="more couleur1-2-nuance">' +
+                            '<div class="more couleur1-2-nuance" style="border-radius: 25px">' +
                                 '<div class="mt-4 text-white">' +
                                     ''+ecolesETUDES[lEtude]+'<br>'+codepostalsETUDES[lEtude]+' - '+villesETUDES[lEtude]+'' +
                                     '<a href="'+liensETUDES[lEtude]+'">' +
