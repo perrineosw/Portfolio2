@@ -7,6 +7,12 @@
     text-align: center;
 }
 
+.jscharting {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
 /* Styling the determinate progress element */
 progress[value] {
     width: 80%;

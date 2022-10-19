@@ -45,7 +45,7 @@
 
 .cardAPropos{
     position:relative;
-    width:300px;
+    width:50%;
     height:400px;
     transform-style:preserve-3d;
     transform:perspective(2000px);
@@ -53,9 +53,9 @@
 }
 
 .cardAPropos:hover{
-    z-index:1111;
-    transform:perspective(2000px) rotate(-0deg);
-    width: 100%;
+    z-index:5;
+    transform:perspective(2000px) rotate(-7deg);
+    width: 70%;
     border-radius: 25px;
     background-color:white;
     box-shadow: 0 0 15px dimgrey;
@@ -84,18 +84,26 @@
 }
 
 .cardAPropos:hover .img-container{
-    opacity: 0;
+    transform:rotateY(-135deg);
 }
 
-.cardAPropos:hover .textAPropos{
-    opacity: 1;
+.cardAPropos:hover .card-details p{
+    color: black !important;
+    transition: 1s;
 }
 
-.cardAPropos .card-detailsAPropos{
+.cardAPropos .card-details{
     position:absolute;
     left:0;
     top:0;
     box-sizing:border-box;
     padding:20px;
-    color: black;
+}
+
+.cardAPropos .card-details p{
+    margin:0;
+    padding:0;
+    line-height:25px;
+    font-size:1.1em;
+    color: transparent;
 }

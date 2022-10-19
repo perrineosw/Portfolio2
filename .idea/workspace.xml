@@ -13,12 +13,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,11 +47,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/games" />
       <recent name="$PROJECT_DIR$/images/projets" />
       <recent name="$PROJECT_DIR$/images/competences/logiciels" />
       <recent name="$PROJECT_DIR$/images/competences/frameworks" />
       <recent name="$PROJECT_DIR$/images/competences/langages" />
-      <recent name="$PROJECT_DIR$/images/competences/langues" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -53,6 +63,11 @@
       <option name="presentableId" value="Default" />
       <updated>1665153097542</updated>
       <workItem from="1665153099441" duration="3417000" />
+      <workItem from="1665737572472" duration="1373000" />
+      <workItem from="1665852548047" duration="3666000" />
+      <workItem from="1666033388632" duration="5350000" />
+      <workItem from="1666188956246" duration="6548000" />
+      <workItem from="1666209838367" duration="8297000" />
     </task>
     <servers />
   </component>
