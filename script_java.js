@@ -12,14 +12,6 @@ for (let leCentre=0; leCentre<nomsCENTRESINTERETS.length; leCentre+=1) {
                                         '<div class="cardBlancAPropos font-italic py-1 m-0">'+nomsCENTRESINTERETS[leCentre]+'</div>' +
                                     '</div>' +
                                 '</div>';
-        /*'<div class="card imgCentreInteret">' +
-                                    '<div class="card-side row front">' +
-                                        '<img src="'+imagesCENTRESINTERETS[leCentre]+'" class="imgCentreInteret" alt="">' +
-                                    '</div>' +
-                                    '<div class="card-side row back couleur1-2-nuance h-100">' +
-                                        '<div class="m-auto text-white">'+nomsCENTRESINTERETS[leCentre]+'</div>' +
-                                    '</div>' +
-                                '</div>';*/
     document.getElementById('chaqueCentreInteret').innerHTML = contenuCENTRESINTERETS;
 }
 
@@ -79,7 +71,7 @@ for (let lEtude=0; lEtude<intitulesETUDES.length; lEtude+=1) {
 
 /* PARCOURS */
 
-let degradesPARCOURS = ['degrade1', 'degrade2', 'degrade3', 'degrade4', 'degrade5', 'degrade1', 'degrade2'];
+let degradesPARCOURS = ['degrade5', 'degrade5', 'degrade2', 'degrade3', 'degrade1', 'degrade1', 'degrade4'];
 let imagesPARCOURS = ['./images/parcours/avenirdata.jpeg', './images/parcours/avenirdata.jpeg', './images/parcours/intermarche.jpeg', './images/parcours/stPaulLesDax.jpeg', './images/parcours/feria.jpeg', './images/parcours/feria.jpeg', './images/parcours/harmonie.jpg'];
 let intitulesPARCOURS = ['Alternance informatique et data', 'Stage informatique et data', 'Hôtesse de caisse', 'Stage informatique', 'Vendeuse', 'Vendeuse', 'Bénévole dans une association musicale'];
 let datesPARCOURS = ['2022 - 2024', 'Avril - Août 2022', 'Juin / Juillet / Août 2021', '2020', 'Août 2019', 'Août 2017', 'Depuis 2015'];

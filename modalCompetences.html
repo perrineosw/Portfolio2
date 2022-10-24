@@ -1,0 +1,47 @@
+<div class="modal fade" id="modalCompetences" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row mt-2"><div class="col textSousTitre box_shadow">Langues</div></div>
+        <div class="row d-flex justify-content-around">
+          <div class="mx-3 col languesAnglais cardBlanc box_shadow">
+            <div class="row">
+              <div class="col-lg col-md-12 col-sm-12 m-auto">
+                <img src="images/competences/langues/anglais.png" class="drapeau" alt=""/>
+              </div>
+              <div class="col-lg col-md-12 col-sm-12">
+                <div class="row">
+                  <div id="chartDivAnglais" class="jscharting"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mx-3 col languesEspagnol cardBlanc box_shadow">
+            <div class="row">
+              <div class="col-lg col-md-12 col-sm-12 m-auto">
+                <img src="images/competences/langues/espagnol.png" class="drapeau" alt=""/>
+              </div>
+              <div class="col-lg col-md-12 col-sm-12">
+                <div class="row">
+                  <div id="chartDivEspagnol" class="jscharting"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5"><div class="col textSousTitre box_shadow">Langages</div></div>
+        <div class="row d-flex justify-content-around cardBlanc box_shadow" id="chaqueLangage"></div>
+        <div class="row mt-5"><div class="col textSousTitre box_shadow">Frameworks & Librairies</div></div>
+        <div class="row d-flex justify-content-around cardBlanc box_shadow" id="chaqueFramework"></div>
+        <div class="row mt-5"><div class="col textSousTitre box_shadow">Logiciels</div></div>
+        <div class="row d-flex justify-content-around cardBlanc box_shadow" id="chaqueLogiciel"></div>
+      </div>
+    </div>
+  </div>
+</div>
